@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		
+		<!-- Library Requirements -->
+		<script type="text/javascript" src="../dist/gtx.js"></script>
+		<!-- /Library Requirements -->
+
+		<script type="text/javascript" src="test.js"></script>
+		
+		<style>
+		*{
+			box-sizing: border-box; /* good best practice for application */
+		}		
+		html, body{
+			height: 100%;
+		}
+		.canvas-container{
+			border: solid 1px red;
+	
+		}
+		.canvas{
+			border: solid 1px green;
+			/*width: 100%;*/
+		}
+
+		#container-2{
+			width: 80%;
+			height: 20%;
+		}
+		</style>
+	</head>
+
+	<body>
+
+	<h1>Canvas Test 1 (canvas set container size)</h1>
+	<div class="canvas-container">
+		<canvas id="canvas-1" class="canvas">
+		</canvas>
+	</div>
+
+	<h1>Canvas Test 2 (gtx.fitParent)</h1>
+
+	<div id="container-2" class="canvas-container">
+		<canvas id="canvas-2" class="canvas">
+		</canvas>
+	</div>
+
+
+	</body>
+
+</html>
