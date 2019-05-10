@@ -1,6 +1,6 @@
 {
 	"name": "gtx",
-	"version": "0.6.0",
+	"version": "0.6.1",
 	"description": "A minimalistic HTML5 Canvas Context wrapper allowing to chain canvas drawing instructions. Zero dependency!",
 	"license": "Apache-2.0",
 	"main": "index.js",
